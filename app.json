@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "capstone-project",
-    "slug": "capstone-project",
+    "slug": "little-lemon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -38,11 +38,19 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "97ad534f-fdfc-4d83-ae26-77351e9d2d28"
+      }
+    },
+    "owner": "beyza123321"
   }
 }
